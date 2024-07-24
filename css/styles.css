@@ -4100,8 +4100,8 @@ header.fixed .menu .hide
 .cases .case
 {
     display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-content: stretch;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -4157,6 +4157,9 @@ header.fixed .menu .hide
 
 .cases .case .data
 {
+    display: flex;
+    flex-direction: column;
+
     width: 472px;
     max-width: 100%;
     margin-left: auto;
@@ -4243,8 +4246,9 @@ header.fixed .menu .hide
 
 .cases .case .buy
 {
-    margin-top: 60px;
+    margin-top: auto;
     padding: 24px 21px;
+    padding-top: 40px;
 
     border-radius: 12px;
     background: #f4f4f4;
