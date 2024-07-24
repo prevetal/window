@@ -783,35 +783,6 @@ header .messengers img
 
 
 
-header .mob_menu_btn
-{
-    display: none;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    width: 40px;
-    height: 40px;
-    margin-right: -8px;
-    margin-left: 16px;
-
-    color: #fff;
-    border-radius: 50%;
-    background: #0288d1;
-}
-
-
-header .mob_menu_btn .icon
-{
-    display: block;
-
-    width: 22px;
-    height: 16px;
-}
-
-
-
 header .additional_menu
 {
     position: static;
@@ -891,6 +862,7 @@ header .additional_menu .close_btn svg
 
 header .additional_menu .logo
 {
+    width: 100%;
     margin-bottom: 59px;
 }
 
