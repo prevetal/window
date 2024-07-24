@@ -1763,6 +1763,8 @@ header.fixed .menu .hide
 {
     position: relative;
 
+    margin-top: -32px;
+
     background: #ddd;
 }
 
