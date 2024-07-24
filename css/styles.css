@@ -258,11 +258,10 @@ button
 --------------*/
 .fancybox__backdrop
 {
-    border-radius: 9px;
-    background: rgba(106, 220, 255, .68);
-
+    /* background: rgba(106, 220, 255, .68);
             backdrop-filter: blur(6.075px);
-    -webkit-backdrop-filter: blur(6.075px);
+    -webkit-backdrop-filter: blur(6.075px); */
+    background: none;
 }
 
 
@@ -821,7 +820,7 @@ header .additional_menu
 }
 
 
-header .additional_menu .btn
+header .additional_menu > .btn
 {
     font-size: 16px;
     font-weight: 600;
@@ -838,7 +837,7 @@ header .additional_menu .btn
 }
 
 
-header .additional_menu .btn .icon
+header .additional_menu > .btn .icon
 {
     display: none;
 
@@ -1265,7 +1264,7 @@ header.fixed .additional_menu
 }
 
 
-header.fixed .additional_menu .btn
+header.fixed .additional_menu > .btn
 {
     display: flex;
     align-content: center;
@@ -1280,19 +1279,19 @@ header.fixed .additional_menu .btn
 }
 
 
-header.fixed .additional_menu .btn span
+header.fixed .additional_menu > .btn span
 {
     display: none;
 }
 
 
-header.fixed .additional_menu .btn .icon
+header.fixed .additional_menu > .btn .icon
 {
     display: block;
 }
 
 
-header .additional_menu .mini_modal
+header.fixed .additional_menu .mini_modal
 {
     right: 0;
     left: auto;

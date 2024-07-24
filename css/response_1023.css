@@ -627,8 +627,18 @@
     /*-------------
         Windows
     -------------*/
+    .windows .window
+    {
+        position: relative;
+
+        padding-bottom: 124px;
+    }
+
+
     .windows .window .data
     {
+        position: static;
+
         padding: 0;
     }
 
@@ -658,7 +668,7 @@
 
     .windows .window .buy
     {
-        position: relative;
+        position: absolute;
         right: 0;
         bottom: 0;
 
