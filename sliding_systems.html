@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Adapting the page for mobile devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Prohibition of phone number recognition -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Page title -->
+		<title>Заголовок страницы</title>
+
+		<!-- Meta description -->
+		<meta name="description" content="">
+
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="">
+
+		<!-- Changing the color of the mobile browser panel -->
+		<meta name="msapplication-TileColor" content="#0288D1">
+		<meta name="theme-color" content="#0288D1">
+
+		<!-- Connecting fonts from Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Connecting style files -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="data">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+								<img src="images/logo_white.svg" alt="" loading="lazy">
+							</div>
+
+							<div class="pexay_logo">
+								<img src="images/pexay_logo.svg" alt="">
+							</div>
+
+							<div class="ya_rating">
+								<img src="images/ya_logo.svg" alt="" loading="lazy" class="ya_logo">
+
+								<div class="val">5/5</div>
+
+								<div class="stars">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+								</div>
+
+								<div class="exp">Рейтинг организации в Яндексе</div>
+							</div>
+
+							<button class="send_project">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								</div>
+
+								<div>Прислать<br> проект на email</div>
+							</button>
+
+							<button class="callback_btn modal_btn" data-modal="callback_modal">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</div>
+
+								<div>Заказать<br> обратный звонок</div>
+							</button>
+
+							<div class="phone">
+								<div class="time">Пн - Вск круглосуточно</div>
+
+								<div><a href="tel:+78123858580">+7 (812) 385 85 80</a></div>
+							</div>
+
+							<div class="messengers">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_whatsapp.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_telegram.svg" alt="">
+								</a>
+							</div>
+
+							<button class="mob_menu_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<div class="additional_menu modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#menu_modal">
+									<span>Меню</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="menu_modal">
+									<button class="close_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+
+									<div class="logo">
+										<img src="images/logo.svg" alt="">
+									</div>
+
+									<div class="links">
+										<div><a href="/">Главная</a></div>
+
+										<div><a href="/">Пластиковые окна</a></div>
+
+										<div><a href="/">Окна в коттедж</a></div>
+
+										<div><a href="/">Раздвижные системы</a></div>
+
+										<div><a href="/">Ремонт и сервис</a></div>
+
+										<div><a href="/">Застройщикам</a></div>
+
+										<div>
+											<a href="/">О нас</a>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+
+											<div class="sub">
+												<div><button class="btn modal_btn" data-modal="team_modal">Команда</button></div>
+
+												<div><button class="btn modal_btn" data-modal="vacancies_modal">Вакансии</button></div>
+											</div>
+										</div>
+
+										<div><a href="/">Цены</a></div>
+
+										<div><a href="/">Контакты</a></div>
+									</div>
+								</div>
+							</div>
+
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/">Главная</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Пластиковые окна</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Окна в коттедж</a>
+								</div>
+
+								<div class="menu_item">
+									<a class="active">Раздвижные системы</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Ремонт и сервис</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Застройщикам</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">
+										<span>О нас</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><button class="btn modal_btn" data-modal="team_modal">Команда</button></div>
+
+										<div><button class="btn modal_btn" data-modal="vacancies_modal">Вакансии</button></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Цены</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="sliding_systems">
+					<div class="cont">
+						<div class="block_head center">
+							<img src="images/ic_arrow_ver.svg" alt="">
+
+							<div class="title">Мы на международной выставке MosBuild 2023</div>
+
+							<img src="images/ic_arrow_ver.svg" alt="">
+						</div>
+
+						<div class="video">
+							<a href="/" class="link fancy_img">
+								<div class="thumb">
+									<img src="images/tmp/sliding_systems_video_thumb.jpg" alt="" loading="lazy">
+								</div>
+
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+								</div>
+							</a>
+						</div>
+
+						<div class="head">
+							<img src="images/tmp/sliding_systems_head_img.jpg" alt="" loading="lazy">
+
+							<div class="title">Параллельно-раздвижная система <b><span>Intelio Slide</span> РЕХАУ</b></div>
+						</div>
+
+						<div class="description">
+							<div class="block_head">
+								<div class="title">AbstellSchiebe Tür(de) = AST*</div>
+							</div>
+
+							<div class="text_block">
+								<p>AST INTELIO Slide — это удобная система, с легким открыванием и отличными характеристиками по сопротивлению тепло- водопроницаемости, которую возможно устанавливать, как в качестве окна, так и в дверном проеме. Профиль с системной глубиной 80 мм сбережет тепло и сохранит комфортный микроклимат дома. Благодаря простой системе открывания, вы получаете больше возможностей для применения порталов INTELIO Slide. Например, можно установить окно на кухне и без труда его открывать, так как створка не будет задевать рабочую поверхность. Тот же принцип позволяет максимально использовать зону вдоль раздвижной двери, устанавливать любые приборы отопления ставить цветочные горшки или мебель — потому что створка при открывании не будет их задевать.<br> Технология ламинации РЕХАУ предоставляет широкие возможности для выбора конструкции в разных дизайнерских исполнениях. Одно из преимуществ системы INTELIO Slide в том, что при ламинации специальной декоративной пленкой покрываются все видимые части профиля, так что при заказе конструкции, к примеру, в одной из пленок WOODEC, вы получите легкую в уходе, надежную и теплую раздвижную дверь или окно, которое на внешний вид и на ощупь не будет отличаться от дерева.</p>
+
+								<p>*(Параллельно-сдвижные окна и двери с функцией прижима створки)</p>
+							</div>
+						</div>
+
+						<div class="psk_portal">
+							<img src="images/tmp/sliding_systems_psk_portal_img.jpg" alt="" loading="lazy">
+
+							<div class="title">PSK-портал</div>
+						</div>
+
+						<div class="text_block color2">
+							<p><b>PSK</b>-портал относится к профиле-независимым раздвижным системам, так как в основе изделия в основе которых лежат стандартные оконные и дверные профили и с помощью специальной фурнитуры из этих профилей можно конструировать раздвижки.<br> ПСК-порталы предназначены для остекления жилых помещений и обладают всеми преимуществами обычных окон и дверей из ПВХ, т.к. в основе их конструкции лежат стандартные ПВХ профили. Вы можете заказать PSK-портал из любого профиля РЕХАУ: BLITZ, GRAZIO, DELIGHT, INTELIO.<br> Параллельно раздвижные двери прекрасно подойдут как для остекления спальни или гостиничного номера отеля, так и для создания комфортных условий на небольшом утепленном балконе.<br> Благодаря усовершенствованной конструкции фурнитуры обеспечивается бесшумное равномерное закрывание и открывание створок весом до 200 кг и исключается остаточная вибрация створки.<br> При использовании параллельно-сдвижных дверей можно открыть не более 50% ширины оконного проема.<br> Важно, что створки ПСК-портала открываются только внутрь. Выход створки внутрь помещения — 125 мм. Это нельзя забывать при выборе типа и места расположения отопительных приборов. Иначе радиатор будет мешать открыванию створки.</p>
+						</div>
+
+						<div class="advantages">
+							<div class="block_head center">
+								<div class="title">Преимущества PSK-системы</div>
+							</div>
+
+							<div class="row">
+								<div class="item">
+									Дополнительно полезное пространство<br>
+									Дополнительные полезное пространств благодаря параллельному сдвигу створок окон
+								</div>
+
+								<div class="item">
+									Превосходная теплоизоляция<br>
+									Высокие показатели герметичности благодаря фурнитуре. Преимущества профильных системы Рехау с системной глубиной от 60 до 80мм.
+								</div>
+
+								<div class="item">
+									Надежность и безопасность<br>
+									Соответствует требованием поворотно-откидных конструкций.<br>
+									Возможность оснащения противоатомной фурнитурой
+								</div>
+
+								<div class="item">
+									Функциональность и комфорт<br>
+									Поворотно-откидное положение створки:<br>
+									разнообразие конструкций.
+								</div>
+							</div>
+						</div>
+
+						<div class="schemes">
+							<div class="block_head center">
+								<div class="title">Существуют следующие схемы открываний PSK-портала:</div>
+							</div>
+
+							<div class="desc">
+								А- Оконный проем разделен на 2 части, и створка сдвигается на глухой элемент окна<br>
+
+								С- Оконный проем разделен на 4 части, сдвигающиеся элементы располагаются в центре проема и сдвигаются влево и право<br>
+
+								К- Оконный проем разделен на 3 части,центральный элемент является глухим, подвижные створки  перемещаются в центр
+							</div>
+
+							<div class="exp">Есть также варианты монтажной ситуации,где в PSK- портале присутствует всего одна створка-подвижная, которая в открытом виде перемещается вдоль стены. При этом створки можно встроить в специальный короб, так что в отрытом виде ее не будет видно</div>
+
+							<div class="row">
+								<div class="scheme">
+									<div class="name">Схема A</div>
+
+									<img src="images/tmp/scheme1_img.svg" alt="" loading="lazy">
+								</div>
+
+								<div class="scheme">
+									<div class="name">Схема C</div>
+
+									<img src="images/tmp/scheme2_img.svg" alt="" loading="lazy">
+								</div>
+
+								<div class="scheme">
+									<div class="name">Схема K</div>
+
+									<img src="images/tmp/scheme3_img.svg" alt="" loading="lazy">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="data">
+					<div class="cont row">
+						<div class="col">
+							<div class="logo">
+								<img src="images/logo_white.svg" alt="" loading="lazy">
+							</div>
+
+							<div class="desc">
+								<p>Оконные системы Рехау.<br> Полный комплекс услуг по остеклению жилой и коммерческой недвижимости.</p>
+
+								<p>Работаем по Санкт-Петербургу и ЛО</p>
+							</div>
+						</div>
+
+						<div class="qr_codes">
+							<div>
+								<img src="images/tmp/qr_code1.svg" alt="" loading="lazy">
+							</div>
+
+							<div>
+								<img src="images/tmp/qr_code2.svg" alt="" loading="lazy">
+							</div>
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone2"></use></svg>
+								</div>
+
+								<div><a href="tel:88123858580">8 (812) 385 85 80</a></div>
+							</div>
+
+							<div class="email">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								</div>
+
+								<div><a href="mailto:info@oknaspb812.ru">info@oknaspb812.ru</a></div>
+							</div>
+
+							<div class="location">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</div>
+
+								<div>г. Санкт-Петербург, Лиговский просп., 50м</div>
+							</div>
+
+							<div class="online">Мы Онлайн, пишите!</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_whatsapp.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_telegram.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_vk.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_instagram.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_youtube.svg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="menu">
+							<div><a href="/">Главная</a></div>
+
+							<div><a href="/">Пластиковые окна</a></div>
+
+							<div><a href="/">Окна в коттедж</a></div>
+
+							<div><a href="/">Раздвижные системы</a></div>
+
+							<div><a href="/">Ремонт и сервис окон</a></div>
+
+							<div><a href="/">О нас</a></div>
+
+							<div><a href="/">Вакансии</a></div>
+
+							<div><a href="/">Цены</a></div>
+
+							<div><a href="/">Контакты</a></div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy;2010-2024 <span class="name">Танцующий ОконщикЪ</span> Все права защищены</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Введите имя</div>
+
+					<div class="field">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+
+						<input type="text" name="" value="" class="input" placeholder="Имя">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ведите телефон</div>
+
+					<div class="field">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone2"></use></svg>
+
+						<input type="tel" name="" value="" class="input" placeholder="+7(900)-000-000-00">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Позвонити мне</button>
+				</div>
+
+				<div class="agree">
+					<label class="checkbox">
+						<input type="checkbox" name="agree">
+
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+
+						<div>Я соглашаюсь на обработку <a href="/" target="_blank">персональных данных</a> согласно <a href="/" target="_blank">политике конфидециальности</a></div>
+					</label>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Connecting javascript files -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

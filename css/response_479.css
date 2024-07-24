@@ -1,0 +1,428 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: -32px;
+        right: 0;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 48px 20px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        width: calc(100% - 191px);
+    }
+
+
+    header .logo img
+    {
+        width: 144px;
+    }
+
+
+    header .phone
+    {
+        margin-left: 10px;
+    }
+
+
+    header .phone a
+    {
+        font-size: 15px;
+
+        letter-spacing: 0;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .field > .icon
+    {
+        left: 20px;
+    }
+
+
+    .form .icon + .input
+    {
+        padding-left: 50px;
+    }
+
+
+
+    /*----------------
+        Main video
+    ----------------*/
+    .main_video .img
+    {
+        min-height: 200px;
+    }
+
+
+    .main_video .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .main_video .icon svg
+    {
+        width: 16px;
+        height: 20px;
+    }
+
+
+
+    /*------------------------
+        Official guarantee
+    ------------------------*/
+    .official_guarantee
+    {
+        margin-bottom: 48px;
+        padding-top: 180px;
+    }
+
+
+    .official_guarantee .data
+    {
+        width: 100%;
+        padding-top: 16px;
+    }
+
+
+    .official_guarantee .data img
+    {
+        top: -232px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+    }
+
+
+    .official_guarantee .data .val
+    {
+        font-size: 80px;
+
+        text-transform: none;
+    }
+
+
+    .official_guarantee .data .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .official_guarantee .exp
+    {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 120%;
+
+        margin-top: 16px;
+    }
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner img
+    {
+        height: 468px;
+    }
+
+
+
+    /*--------------------
+        Repair service
+    --------------------*/
+    .repair_service .block_title br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        For developers
+    --------------------*/
+    .for_developers .block_title br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts page
+    -------------------*/
+    .contacts_page .image
+    {
+        width: calc(100% + 40px);
+        margin: 40px -20px 0;
+    }
+
+
+    .contacts_page .map
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        Windows
+    -------------*/
+    .windows .window .desc
+    {
+        padding: 20px;
+    }
+
+
+    .windows .window .buy
+    {
+        padding: 10px 20px 20px;
+    }
+
+
+    .windows .gallery
+    {
+        padding: 20px;
+    }
+
+
+    .windows .gallery .row
+    {
+        margin-bottom: -12px;
+        margin-left: 0;
+    }
+
+
+    .windows .gallery .row > *
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .case .buy
+    {
+        padding: 10px 20px 20px;
+    }
+
+
+    .cases .case .buy .price
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+
+    /*---------------------
+        Sliding systems
+    ---------------------*/
+    .sliding_systems .block_head .title
+    {
+        font-size: 20px;
+
+        max-width: calc(100% - 99px);
+        margin: 0 20px;
+    }
+
+
+    .sliding_systems .block_head img
+    {
+        width: 28px;
+        height: 30px;
+    }
+
+
+    .sliding_systems .head .title
+    {
+        padding: 20px 20px 0;
+    }
+
+
+
+    .sliding_systems .psk_portal .title
+    {
+        font-size: 24px;
+
+        top: 20px;
+        right: 20px;
+    }
+
+
+
+    .sliding_systems .schemes .scheme img
+    {
+        height: 111px;
+    }
+
+
+
+    /*-------------------
+        Glazing rated
+    -------------------*/
+    .glazing_rated .block_title
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*------------------
+        Configurator
+    ------------------*/
+    .configurator
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .configurator .images
+    {
+        width: calc(100% + 40px);
+        margin: -20px -20px 20px;
+    }
+
+
+    .configurator .data
+    {
+        margin-top: 28px;
+        padding: 20px;
+    }
+
+
+    .configurator .data .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        font-size: 11px;
+    }
+
+
+    footer .copyright
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+
+    footer .copyright .name
+    {
+        margin: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+
+    /*-------------------
+        Tooltip modal
+    -------------------*/
+    .tooltip_modal
+    {
+        padding: 20px;
+    }
+
+
+    .tooltip_modal .desc
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*---------------------
+        Vacancies modal
+    ---------------------*/
+    #vacancies_modal
+    {
+        padding: 20px;
+    }
+
+
+    #vacancies_modal .form
+    {
+        padding: 23px 0;
+
+        box-shadow: none;
+    }
+
+
+
+    /*---------------------
+        Equipment modal
+    ---------------------*/
+    #equipment_modal .col
+    {
+        padding: 20px 20px 20px 10px;
+    }
+
+
+    #equipment_modal .items
+    {
+        font-size: 14px;
+    }
+}
