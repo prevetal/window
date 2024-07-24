@@ -4474,8 +4474,6 @@ header.fixed .menu .hide
 .sliding_systems .advantages .item
 {
     font-family: var(--font_family3);
-    font-size: 16px;
-    font-weight: 500;
     line-height: 24px;
 
     display: flex;
@@ -4491,6 +4489,14 @@ header.fixed .menu .hide
 
     color: #4d4d4d;
     background: #cef1fc;
+}
+
+
+.sliding_systems .advantages .item .name
+{
+    font-weight: 700;
+
+    margin-bottom: 8px;
 }
 
 
