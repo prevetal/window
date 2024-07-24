@@ -398,7 +398,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Show step
 		$(`.prices_page .step${currentStep}`).fadeIn(300)
 
-		// Progress
 		$('.prices_page .bottom .count .current').text(currentStep)
 
 		// Prev btn
