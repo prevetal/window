@@ -965,8 +965,16 @@
 
     #team_modal .row > *
     {
+        order: 5;
+
         width: 100%;
         margin-left: 0;
+    }
+
+
+    #team_modal .row > *.mob_first
+    {
+        order: 1;
     }
 
 
