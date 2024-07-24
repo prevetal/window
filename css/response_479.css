@@ -58,6 +58,103 @@
 
 
 
+    header.fixed
+    {
+        display: block;
+
+        height: 61px;
+
+        background: #01579b;
+    }
+
+
+    header.fixed .logo
+    {
+        left: 8px;
+
+        margin-left: 0;
+    }
+
+
+    header .logo img + img
+    {
+        width: auto;
+        height: 36px;
+    }
+
+
+    header.fixed .pexay_logo
+    {
+        right: auto;
+        left: 112px;
+
+        margin: 0;
+    }
+
+
+    header.fixed .pexay_logo img
+    {
+        width: 56px;
+    }
+
+
+    header.fixed .ya_rating
+    {
+        display: none;
+    }
+
+
+    header.fixed .phone
+    {
+        right: 72px;
+
+        margin-right: 0;
+        padding-bottom: 3px;
+    }
+
+
+    header.fixed .phone .time
+    {
+        display: none;
+    }
+
+
+    header .phone a
+    {
+        font-size: 13px;
+    }
+
+
+    header.fixed .additional_menu
+    {
+        position: absolute;
+    }
+
+
+    header.fixed .additional_menu > .btn
+    {
+        width: 39px;
+        height: 39px;
+
+        color: #fff;
+        background: #003e6e;
+    }
+
+
+    header.fixed .additional_menu > .btn .icon
+    {
+        width: 20px;
+        height: 14px;
+    }
+
+
+    header.fixed .additional_menu .logo
+    {
+        display: none;
+    }
+
+
+
     /*------------------
         Form elements
     ------------------*/
