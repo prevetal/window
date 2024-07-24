@@ -828,6 +828,42 @@
 
 
 
+    /*-----------------
+        Prices page
+    -----------------*/
+    .prices_page
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .prices_page .data
+    {
+        width: 100%;
+    }
+
+
+    .prices_page .data .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .prices_page .bottom
+    {
+        padding-top: 60px;
+    }
+
+
+    .prices_page .boss
+    {
+        width: 100%;
+        min-height: 0;
+        margin-top: 60px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

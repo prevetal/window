@@ -4591,6 +4591,501 @@ header.fixed .menu .hide
 
 
 
+/*-----------------
+    Prices page
+-----------------*/
+.prices_page
+{
+    margin-bottom: 90px;
+}
+
+
+.prices_page .row
+{
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+
+.prices_page .data
+{
+    width: calc(100% - 344px);
+}
+
+
+.prices_page .data .title
+{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+
+    margin-bottom: 42px;
+    padding: 15px 12px;
+
+    color: #000;
+    border-radius: 12px;
+    background: #f6f6f6;
+}
+
+
+.prices_page .step
+{
+    display: none;
+}
+
+
+.prices_page .step .question
+{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+
+    margin-bottom: 21px;
+
+    color: #374151;
+}
+
+
+.prices_page .step .answers .row
+{
+    align-content: center;
+    align-items: center;
+
+    margin-bottom: -16px;
+    margin-left: -16px;
+}
+
+
+.prices_page .step .answers .row > *
+{
+    width: calc(33.333% - 16px);
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+
+.prices_page .step .answers .row > *.big
+{
+    width: calc(50% - 16px);
+}
+
+
+.prices_page .step .answers label
+{
+    font-size: 14px;
+    font-weight: 700;
+
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+
+    color: #414040;
+}
+
+
+.prices_page .step .answers input
+{
+    display: none;
+}
+
+
+.prices_page .step .answers .check
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+
+    color: #43a046;
+    border: 2px solid rgba(201, 201, 201, .80);
+    border-radius: 4px;
+}
+
+
+.prices_page .step .answers .check svg
+{
+    display: block;
+
+    width: 19px;
+    height: 14px;
+
+    content: '';
+    transition: opacity .2s linear;
+
+    opacity: 0;
+}
+
+
+.prices_page .step .answers .check + div
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 60px;
+    padding: 11px 11px 11px 56px;
+
+    transition: border-color .2s linear;
+
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: #fff;
+}
+
+
+.prices_page .step .answers input:checked ~ .check svg
+{
+    opacity: 1;
+}
+
+
+.prices_page .step .answers input:checked + .check + div
+{
+    border-color: #7ebe80;
+}
+
+
+
+.prices_page .bottom
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: auto;
+    padding-top: 100px;
+}
+
+
+.prices_page .bottom .count
+{
+    font-weight: 600;
+    line-height: 120%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    padding: 8px 0;
+
+    color: #000;
+}
+
+
+.prices_page .bottom .count .current
+{
+    line-height: 30px;
+
+    display: block;
+
+    width: 30px;
+    height: 30px;
+    margin: 0 9px;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 50%;
+    background: #0288d1;
+}
+
+
+.prices_page .bottom .btns
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.prices_page .bottom .btns .prev_btn
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+
+    color: #bebebe;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.prices_page .bottom .btns .prev_btn .icon
+{
+    display: block;
+
+    width: 17px;
+    height: 13px;
+}
+
+
+.prices_page .bottom .btns .prev_btn.disabled
+{
+    pointer-events: none;
+}
+
+
+.prices_page .bottom .btns .next_btn
+{
+    font-weight: 600;
+    line-height: 120%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 132px;
+    height: 45px;
+
+    color: #fff;
+    border-radius: 24px;
+    background: #0288d1;
+}
+
+
+.prices_page .bottom .btns .next_btn .icon
+{
+    display: block;
+
+    width: 17px;
+    height: 13px;
+    margin-left: 10px;
+
+    transform: rotate(180deg);
+}
+
+
+.prices_page .bottom .btns .exp
+{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 120%;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    padding: 10px;
+
+    text-align: right;
+
+    color: #b8b8b8;
+}
+
+
+
+.prices_page .boss
+{
+    width: 309px;
+    max-width: 100%;
+    min-height: 550px;
+    margin-left: auto;
+    padding: 23px 18px;
+
+    border-radius: 15px;
+    background: #f6f6f6;
+}
+
+
+.prices_page .boss .person
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.prices_page .boss .photo
+{
+    position: relative;
+
+    width: 107px;
+    height: 107px;
+
+    border: 3px solid #d9d9d9;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+
+.prices_page .boss .photo .online
+{
+    position: absolute;
+    z-index: 3;
+    right: 8px;
+    bottom: 3px;
+
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #58b022;
+}
+
+
+.prices_page .boss .photo + *
+{
+    width: calc(100% - 128px);
+    padding-top: 12px;
+}
+
+
+.prices_page .boss .name
+{
+    font-size: 20px;
+
+    color: #000;
+}
+
+
+.prices_page .boss .post
+{
+    font-size: 13px;
+
+    margin-top: 10px;
+
+    color: #000;
+}
+
+
+.prices_page .boss .photo img
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+
+.prices_page .boss .count
+{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 56px;
+    margin-top: 16px;
+    padding-top: 12px;
+
+    text-align: center;
+
+    color: #625e5e;
+    background: url(../images/bg_prices_boss_count.svg) 50% 0/100% 100% no-repeat;
+}
+
+
+
+.prices_page .finish
+{
+    display: none;
+}
+
+
+.prices_page .finish .desc
+{
+    font-size: 20px;
+    font-weight: 600;
+
+    width: 488px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #9f9f9f;
+}
+
+
+
+.prices_page .finish .form
+{
+    width: 488px;
+    max-width: 100%;
+    margin: 38px auto 0;
+    padding: 31px 21px;
+
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 19.2px 0 rgba(0, 0, 0, .25);
+
+    --form_border_color: #bdbdbd;
+    --form_focus_color: #bdbdbd;
+    --form_border_radius: 8px;
+    --form_bg_color: #fff;
+    --form_placeholder_color: #797474;
+}
+
+
+.prices_page .finish .form .line
+{
+    margin-bottom: 24px;
+}
+
+
+.prices_page .finish .form .submit_btn
+{
+    font-size: 18px;
+    line-height: 120%;
+
+    height: 59px;
+    padding: 12px 14px;
+
+    border-radius: 12px;
+    background: #1cb220;
+}
+
+
+
 /*------------
     Footer
 ------------*/

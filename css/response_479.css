@@ -339,6 +339,50 @@
 
 
 
+    /*-----------------
+        Prices page
+    -----------------*/
+    .prices_page .step .answers .row
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    .prices_page .step .answers .row > *,
+    .prices_page .step .answers .row > *.big
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    .prices_page .bottom
+    {
+        display: block;
+
+        padding-top: 40px;
+    }
+
+
+    .prices_page .bottom .count
+    {
+        justify-content: center;
+
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
+    .prices_page .bottom .btns
+    {
+        width: 187px;
+        margin: 0 auto;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

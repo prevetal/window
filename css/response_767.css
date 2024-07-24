@@ -842,6 +842,35 @@
 
 
 
+    /*-----------------
+        Prices page
+    -----------------*/
+    .prices_page
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .prices_page .step .answers .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .prices_page .bottom
+    {
+        padding-top: 48px;
+    }
+
+
+
+    .prices_page .finish .desc
+    {
+        font-size: 18px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

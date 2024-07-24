@@ -338,6 +338,74 @@ document.addEventListener('DOMContentLoaded', function () {
 			}
 		})
 	}
+
+
+	// Quiz
+	let currentStep = 1,
+		totalStep = 4
+
+	$('.prices_page .steps .answers label').click(function(e) {
+		if (e.target.nodeName === 'LABEL') {
+			quizGoToNext()
+		}
+	})
+
+
+	$('.prices_page .steps .next_btn').click(function(e) {
+		e.preventDefault()
+
+		quizGoToNext()
+	})
+
+
+	$('.prices_page .steps .prev_btn').click(function(e) {
+		e.preventDefault()
+
+		quizGoToPrev()
+	})
+
+
+	function quizGoToNext() {
+		currentStep++
+
+		// Hide step
+		$('.prices_page .step').hide()
+
+		// Show step
+		$(`.prices_page .step${currentStep}`).fadeIn(300)
+
+		// Prev btn
+		currentStep > 1
+			? $('.prices_page .btns .prev_btn').removeClass('disabled')
+			: $('.prices_page .btns .prev_btn').addClass('disabled')
+
+		// Finish
+		if (currentStep > totalStep) {
+			$('.prices_page .row').hide()
+			$('.prices_page .finish').fadeIn(300)
+		} else {
+			$('.prices_page .bottom .count .current').text(currentStep)
+		}
+	}
+
+
+	function quizGoToPrev() {
+		currentStep = currentStep - 1
+
+		// Hide step
+		$('.prices_page .step').hide()
+
+		// Show step
+		$(`.prices_page .step${currentStep}`).fadeIn(300)
+
+		// Progress
+		$('.prices_page .bottom .count .current').text(currentStep)
+
+		// Prev btn
+		currentStep > 1
+			? $('.prices_page .btns .prev_btn').removeClass('disabled')
+			: $('.prices_page .btns .prev_btn').addClass('disabled')
+	}
 })
 
 
