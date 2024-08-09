@@ -354,7 +354,12 @@ document.addEventListener('DOMContentLoaded', function () {
 	$('.prices_page .steps .next_btn').click(function(e) {
 		e.preventDefault()
 
-		quizGoToNext()
+		let step = $(`.prices_page .steps .step${currentStep}`),
+			answer = step.find('.answers input:checked')
+
+		if (answer.length) {
+			quizGoToNext()
+		}
 	})
 
 
